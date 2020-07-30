@@ -1,7 +1,8 @@
-package com.challenge.service.interfaces;
+package com.challenge.service;
 
 import com.challenge.entity.Company;
 import com.challenge.repository.CompanyRepository;
+import com.challenge.service.interfaces.CompanyServiceInterface;
 import lombok.AllArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

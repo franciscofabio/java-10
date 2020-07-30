@@ -1,7 +1,8 @@
-package com.challenge.service.interfaces;
+package com.challenge.service;
 
 import com.challenge.entity.Acceleration;
 import com.challenge.repository.AccelerationRepository;
+import com.challenge.service.interfaces.AccelerationServiceInterface;
 import lombok.AllArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -10,6 +11,7 @@ import java.util.List;
 import java.util.Optional;
 
 @Service
+@AllArgsConstructor
 public class AccelerationServiceImpl implements AccelerationServiceInterface {
 
     @Autowired

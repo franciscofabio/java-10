@@ -1,8 +1,9 @@
-package com.challenge.service.interfaces;
+package com.challenge.service;
 
 import com.challenge.entity.Candidate;
 import com.challenge.entity.CandidateId;
 import com.challenge.repository.CandidateRepository;
+import com.challenge.service.interfaces.CandidateServiceInterface;
 import lombok.AllArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
